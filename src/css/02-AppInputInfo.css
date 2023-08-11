@@ -30,7 +30,13 @@
 
 
 .appInputInfoRegister[value] {	
-	padding-left: calc(1.5em + 4px);
+	padding-left: calc(1.5em - 4px);
+	
+	font-size: 15px;
+	
+	line-height: 22px;
+	
+	color: #595964;
 }
 
 
@@ -49,7 +55,12 @@
 	
 	padding: 0 2px; 
 	
-	background-color: white;
+	background-color: #ffffff;
+	color: #4c4c55;
+	
+	font-size: 11px;
+	
+	line-height: 14px;
 }
 
 

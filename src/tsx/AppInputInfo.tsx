@@ -27,7 +27,7 @@ var AppInputInfo = function() {
 	return (<div className="appInputInfo">{
 		appPersoInfo.map( (x, i) => <div className={ inputCSS(i) } key={ x.id }>
 			<h5 className="appInputInfoName">{ x.name }</h5>
-			<input className="appInputInfoRegister" type="text" value={ x.value } onChange={ () => true }/>
+			<input className="appInputInfoRegister" type="text" value={ x.value } onChange={ () => true } />
 			<img className={ ifValidShow(i) } src={ successImage } />
 		</div>)
 	}</div>)

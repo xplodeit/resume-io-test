@@ -1,17 +1,15 @@
-import userImg from '../image/User.png'
-
 import AppInputInfo from './AppInputInfo.tsx'
 
 var LandPagePersonalInformation = function() {
 	return <div className="landPagePersonalInformation">
 		<form>
-			<h4>Personal Information</h4>
+			<h4 className="personalInfoHeader">Personal Information</h4>
 			
 			<div className="appInput">
 				<AppInputInfo />
 				
 				<div className="appInputRightSide">
-					<img className="appInputImage" src={ userImg } alt="picture" />
+					<img className="appInputImage" src="./icon/boy.svg" alt="picture" />
 				</div>
 			</div>
 			
