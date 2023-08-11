@@ -1,22 +1,49 @@
-.landPageTemplates,
+.landPageTemplates {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+
 .landPageTemplatesHeader,
 .landPageTemplatesSearch {
 	display: flex;
-	flex-flow: row wrap; 
+	flex-flow: row wrap;
+	
+	align-items: center;
+}
+
+
+.landPageTemplatesHeader > h6 {
+	font-size: 13px;
 }
 
 
 .landPageTemplatesHeader > img,
 .landPageTemplatesSearch > img {
-	margin-right: 5px;
+	margin-right: 0.5em;
+	
+	width: 16px;
+	heigth: 16px;
 }
 
 
 .landPageTemplatesHeader,
-.landPageTemplatesSearch {
-	margin-top: 5px;
-	
+.landPageTemplatesSearch {	
 	align-items: center;
+	
+	padding: 0.5em 0;
+}
+
+
+.landPageTemplatesSearch > input {
+	border: 0 solid red;
+}
+
+
+.landPageTemplatesSearch > input::placeholder {
+	font-weight: bold;
+	color: black;
+	opacity: 1;
 }
 
 
@@ -27,18 +54,22 @@
 }
 
 
-.landPageTemplatesWork > li,
-.landPageTemplatesAnotherWorks > li {
+.landPageTemplates > ul {
 	display: flex;
-	flex-flow: row;
-	
-	align-items: center;
-	
-	margin-bottom: 5px;	
+	flex-flow: column wrap;
 }
 
 
-.landPageTemplatesWorksLogo,
-.landPageTemplatesAnotherWorksLogo {
-	margin-right: 5px;
+.landPageTemplates > ul > li {
+	display: flex;
+	flex-flow: row wrap;
+	
+	align-items: center;
+	
+	padding: 0.5em 0;
+}
+
+
+.landPageTemplates > ul > li > img {
+	margin-right: 0.5em;
 }

@@ -1,27 +1,55 @@
-.landPageBoards,
-.landPageBoardsArr,
-.landPageBoardsAgentArr {
+.landPageBoards {
 	display: flex;
-	flex-flow: column;
+	flex-flow: column wrap;
 }
 
 
 .landPageBoardsHeader {
 	display: flex;
-	flex-flow: row wrap;	
+	flex-flow: row wrap;
 	
-	align-items: center;
-}	
+	justify-content: center;
+	
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+
+.landPageBoardsHeader > img {
+	width: 16px;
+	height: 16px;
+}
+
 
 .landPageBoardsHeader > h5 {
 	flex: 1;
+	
+	color: #14141f;
+	font-size: 13px;
 }
 
 
-.landPageBoardsArr > li,
-.landPageBoardsAgentArr > li {
+.landPageBoardsHeader > img:first-child {
+	margin-right: 0.5em;
+}
+
+
+
+.landPageBoards > ul {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+
+.landPageBoards > ul > li {
 	display: flex;
 	flex-flow: row wrap;
 	
-	align-items: center;
+	padding: 0.5em 0;
 }
+
+.landPageBoards > ul > li > img {
+	margin-right: 0.5em;
+}
+
+

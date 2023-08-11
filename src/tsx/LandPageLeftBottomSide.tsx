@@ -1,11 +1,8 @@
-import settingsIco from '../icon/settings.svg'
-import userImg from '../image/User.png'
-
 var LandPageLeftBottomSide = function() {
 	return <div className="landPageLeftBottomSide">
-		<img className="landPageLeftBottomSideImage" src={ userImg } alt="carla" /> 
+		<img src="./icon/girl.svg" alt="carla" /> 
 		<p>Carla</p>
-		<img src={ settingsIco } alt="parameters" />
+		<img src="./icon/settings.svg" alt="parameters" />
 	</div>;
 };
 

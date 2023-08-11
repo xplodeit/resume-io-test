@@ -1,9 +1,7 @@
-import logoImg from '../icon/file.png'
-
 function LandPageLeftTopSide() {
 	return (
 		<div className="landPageLeftTopSide">
-			<img src={ logoImg } />
+			<img src="./icon/resume.svg" />
 			<p>Resumizeme</p>
 		</div>
 	)

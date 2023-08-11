@@ -24,11 +24,13 @@
 	flex: 1;
 	
 	padding: 1em 0;
+	
+	border: 1px solid #ececed;
 }
 
 
 .appInputInfoRegister[value] {	
-	padding-left: calc(1.5em - 2px);
+	padding-left: calc(1.5em + 4px);
 }
 
 

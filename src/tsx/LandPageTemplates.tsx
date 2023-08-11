@@ -1,8 +1,3 @@
-import searchIco from '../icon/Loupe.svg'
-import templateImg from '../icon/template.png'
-import starImg from '../icon/star.png'
-import clockImg from '../icon/clock.jpg'
-
 var works = [
 	{ id: 1, name: "Software Engineer" },
 	{ id: 2, name: "Computer hardware engineer" },
@@ -29,25 +24,25 @@ var LandPageTemplates = function() {
 	return (
 		<div className="landPageTemplates">
 			<div className="landPageTemplatesHeader">
-				<img src={ templateImg } alt="icon" />		
-				<h5>My templates</h5>
+				<img src="./icon/x.svg" alt="icon" />		
+				<h6>My templates</h6>
 			</div>
 			
 			<div className="landPageTemplatesSearch">
-				<img src={ searchIco } alt="icon" />
+				<img src="./icon/search.svg" alt="icon" />
 				<input type="text" placeholder="Search" />
 			</div>
 			
 			<ul>{
 				works.map( x => <li key={ x.id }>
-					<img className="landPageTemplatesWorksLogo" src={ starImg}  alt="icon" />
+					<img src="./icon/star.svg"  alt="icon" />
 					<span>{ x.name}</span>
 				</li>)
 			}</ul>
 			
 			<ul>{
 				anotherWorks.map( x => <li key={ x.id }>
-				 	<img className="landPageTemplatesAnotherWorksLogo" src={ clockImg } alt="icon" />
+				 	<img src="./icon/clock.svg" alt="icon" />
 					<span>{ x.name}</span>
 				</li>)
 			}</ul>
