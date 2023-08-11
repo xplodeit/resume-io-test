@@ -1,0 +1,27 @@
+.landPageBoards,
+.landPageBoardsArr,
+.landPageBoardsAgentArr {
+	display: flex;
+	flex-flow: column;
+}
+
+
+.landPageBoardsHeader {
+	display: flex;
+	flex-flow: row wrap;	
+	
+	align-items: center;
+}	
+
+.landPageBoardsHeader > h5 {
+	flex: 1;
+}
+
+
+.landPageBoardsArr > li,
+.landPageBoardsAgentArr > li {
+	display: flex;
+	flex-flow: row wrap;
+	
+	align-items: center;
+}

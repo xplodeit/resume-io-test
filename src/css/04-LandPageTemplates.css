@@ -1,0 +1,44 @@
+.landPageTemplates,
+.landPageTemplatesHeader,
+.landPageTemplatesSearch {
+	display: flex;
+	flex-flow: row wrap; 
+}
+
+
+.landPageTemplatesHeader > img,
+.landPageTemplatesSearch > img {
+	margin-right: 5px;
+}
+
+
+.landPageTemplatesHeader,
+.landPageTemplatesSearch {
+	margin-top: 5px;
+	
+	align-items: center;
+}
+
+
+.landPageTemplatesWork,
+.landPageTemplatesAnotherWorks {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+
+.landPageTemplatesWork > li,
+.landPageTemplatesAnotherWorks > li {
+	display: flex;
+	flex-flow: row;
+	
+	align-items: center;
+	
+	margin-bottom: 5px;	
+}
+
+
+.landPageTemplatesWorksLogo,
+.landPageTemplatesAnotherWorksLogo {
+	margin-right: 5px;
+}

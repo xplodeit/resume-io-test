@@ -1,0 +1,19 @@
+.landPagePremiumCard {
+	display: flex;
+	flex-flow: row wrap;
+	
+	width: 100%;
+	
+	background-color: seagreen;
+}
+
+
+.landPagePremiumCardLeft {
+	width: 10%;
+	height: auto;
+}
+
+
+.landPagePremiumCardRight {
+	width: 90%;
+}

@@ -1,0 +1,15 @@
+.landPageLeftTopSide {
+	display: flex;
+	flex-flow: row wrap;
+	
+	align-items: center;
+	
+	margin-bottom: 10px;
+	
+	border-bottom: 1px solid black;
+}
+
+
+.landPageLeftTopSide > img {
+	margin-right: 5px;	
+}

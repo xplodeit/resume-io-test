@@ -1,0 +1,8 @@
+.appInputImage {
+	width: calc(100% - 10px);
+	height: auto;
+	
+	align-self: start;
+	
+	border-radius: 50%;
+}

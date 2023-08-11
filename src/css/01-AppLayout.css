@@ -1,0 +1,77 @@
+.appRoot {
+	display: flex;
+	flex-flow: row wrap;
+	
+	width: 100%;
+	height: 100vh;
+}
+
+
+.landPageLeftSide {
+	display: flex;
+	flex-flow: column wrap;
+	
+	width: 20%;
+	
+	/*padding: 0 10px;*/
+	
+	background-color: white;
+	
+	border-right: 1px solid black;
+}
+
+
+.landPageLeftTopSide,
+.landPageLeftMiddleSide,
+.landPageLeftBottomSide {
+	padding: 0 5px;
+}
+
+
+.landPageLeftMiddleSide {
+	flex: 1;
+}
+
+
+.landPageRightSide {
+	display: flex;
+	flex-flow: column wrap;
+	
+	width: 80%;
+	
+	padding: 0 5%;
+	
+	background-color: white;
+}
+
+
+
+.landPagePersonalInformation {
+	flex: 1;
+}
+
+
+.appInput {	
+	display: flex;
+	flex-flow: row wrap;
+	
+	width: 100%;
+}
+
+
+.appInputInfo {
+	display: flex;
+	flex-flow: row wrap;
+	
+	width: 80%;
+}
+
+
+.appInputRightSide {
+	display: flex;
+	flex-direction: row;
+	
+	width: 20%;
+	
+	justify-content: center;
+}
