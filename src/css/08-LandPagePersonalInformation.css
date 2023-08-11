@@ -87,7 +87,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	
-	margin: 2em 0;
+	margin: 1em 0;
 }
 
 
@@ -125,7 +125,7 @@
 	
 	border-radius: 8px;
 	
-	margin: 2em 0;		
+	margin: 1em 0;		
 
 	border: 1px solid #e3e3e4;
 }
