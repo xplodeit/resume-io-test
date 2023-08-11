@@ -16,7 +16,7 @@ var boardAgentArr = [
 ];
 
 
-var LandPageBoards = function(that) {
+var LandPageBoards = function() {
 	return (<div className="landPageBoards">
 		<div className="landPageBoardsHeader">
 			<img src={boardImg} alt="icon" />

@@ -1,6 +1,5 @@
-var successImage = "./icon/up.svg";
-		
-var errorImage = "./icon/down.svg";
+import successImage from "../icon/up.svg";	
+//import errorImage from "../icon/down.svg";
 		
 var appPersoInfo = [
 	{ id: 1, name: "First Name", value: "Petter" },
@@ -14,21 +13,21 @@ var appPersoInfo = [
 ];
 	
 
-var inputCSS = function(index) {
+var inputCSS = function(index: number) {
 	return `appInputLogin ${ appPersoInfo[index].width == 100 ? 'appPersoInfoWidth100' : 'appPersoInfoWidth50' }`;
 };
 
 
-var ifValidShow = function(index) {
+var ifValidShow = function(index: number) {
 	return appPersoInfo[index].isValid ? 'appInputInfoIsValidShow' : 'appInputInfoIsValidHide';
 };	
 
 
-var AppInputInfo = function(that) {
+var AppInputInfo = function() {
 	return (<div className="appInputInfo">{
-		appPersoInfo.map( (anItem, i) => <div className={ inputCSS(i) } key={ appPersoInfo[i].id }>
-			<h5 className="appInputInfoName">{ appPersoInfo[i].name }</h5>
-			<input className="appInputInfoRegister" type="text" value={ appPersoInfo[i].value } onChange={ () => true }/>
+		appPersoInfo.map( (x, i) => <div className={ inputCSS(i) } key={ x.id }>
+			<h5 className="appInputInfoName">{ x.name }</h5>
+			<input className="appInputInfoRegister" type="text" value={ x.value } onChange={ () => true }/>
 			<img className={ ifValidShow(i) } src={ successImage } />
 		</div>)
 	}</div>)

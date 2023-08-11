@@ -1,7 +1,7 @@
 import settingsIco from '../icon/settings.svg'
 import userImg from '../image/User.png'
 
-var LandPageLeftBottomSide = function(that) {
+var LandPageLeftBottomSide = function() {
 	return <div className="landPageLeftBottomSide">
 		<img className="landPageLeftBottomSideImage" src={ userImg } alt="carla" /> 
 		<p>Carla</p>
