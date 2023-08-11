@@ -13,18 +13,24 @@ var LandPagePersonalInformation = function() {
 				</div>
 			</div>
 			
-			<p>Use this email to log in to your <a href="#">resumedone.io</a> account and receive notifications.</p>
+			<p className="receiveNotification">Use this email to log in to your <a href="#">resumedone.io</a> account and receive notifications.</p>
 			
-			<button>Save</button>
+			<button className="saveBtn">Save</button>
 			
-			<div>
-				<input type="checkbox" />
+			<div className="showProfileToEmployer">
+				<img src="./icon/unchecked.svg" />
 				<p>Show my profile to serious employers on <a href="#">hirethebest.io</a> for free</p>
 			</div>
 			
-			<div>Delete account</div>
+			<div className="deleteAccount">
+				<h5>Delete account</h5>
+				
+				<p>If you delete your account, you'll be permanently removing it form our systrems - you can't undo it.</p>
+				
+				<button>Yes, Delete my account</button>
+			</div>
 			
-			<p><a href="#">Get in touch with our support team</a> if you have any question or want to leave some feedback.</p>
+			<p className="getInTouch"><a href="#">Get in touch with our support team</a> if you have any question or want to leave some feedback.</p>
 			
 			<p>We'll be happy to hear from you.</p>
 		</form>

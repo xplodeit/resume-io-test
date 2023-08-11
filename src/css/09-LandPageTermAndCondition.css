@@ -1,8 +1,25 @@
+.landPageTermAndCondition {
+	padding: 1em 0;
+	
+	border-top: 1px solid #ececed;
+}
+
 .landPageTermAndCondition,
 .landPageTermAndConditionList {
 	display: flex;
 	flex-flow: row wrap;
 	
 	width: 100%;
+	
+	font-size: 14px;
+	
+	line-height: 22px;
+	
+	color: #595964;
 }
+
+.landPageTermAndConditionList > li {
+	margin-right: 2em;
+}
+
 

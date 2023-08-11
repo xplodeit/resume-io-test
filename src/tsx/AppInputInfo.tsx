@@ -1,11 +1,11 @@
-import successImage from "../icon/up.svg";	
-//import errorImage from "../icon/down.svg";
+var successImage = "./icon/check.svg";	
+
 		
 var appPersoInfo = [
 	{ id: 1, name: "First Name", value: "Petter" },
 	{ id: 2, name: "Last Name", value: "Cettera" },
 	{ id: 3, name: "City", value: "London" },
-	{ id: 4, Name: "Postal Code", value: "E24XF" },
+	{ id: 4, name: "Postal Code", value: "E24XF" },
 	{ id: 5, name: "Address", value: "123Example", width: 100 },
 	{ id: 6, name: "E-Mail", value: "Petter@gmail.com", isValid: true },
 	{ id: 7, name: "Phone", value: "+442223334444" },
