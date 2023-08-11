@@ -14,7 +14,7 @@ var appPersoInfo = [
 	
 
 var inputCSS = function(index: number) {
-	return `appInputLogin ${ appPersoInfo[index].width == 100 ? 'appPersoInfoWidth100' : 'appPersoInfoWidth50' }`;
+	return `appInputParent ${ appPersoInfo[index].width == 100 ? 'appPersoInfoWidth100' : 'appPersoInfoWidth50' }`;
 };
 
 
@@ -26,8 +26,8 @@ var ifValidShow = function(index: number) {
 var AppInputInfo = function() {
 	return (<div className="appInputInfo">{
 		appPersoInfo.map( (x, i) => <div className={ inputCSS(i) } key={ x.id }>
-			<h5 className="appInputInfoName">{ x.name }</h5>
-			<input className="appInputInfoRegister" type="text" value={ x.value } onChange={ () => true } />
+			<h5 className="appInputTitle">{ x.name }</h5>
+			<input className="appInputContainer" type="text" value={ x.value } onChange={ () => true } />
 			<img className={ ifValidShow(i) } src={ successImage } />
 		</div>)
 	}</div>)
