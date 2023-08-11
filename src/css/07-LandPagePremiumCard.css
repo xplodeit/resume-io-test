@@ -4,7 +4,11 @@
 	
 	width: 100%;
 	
-	background-color: seagreen;
+	padding: 1.5em 1em;
+	
+	border-radius: 0.5em;
+	
+	background-color: #008b5d;
 }
 
 
@@ -16,4 +20,30 @@
 
 .landPagePremiumCardRight {
 	width: 90%;
+}
+
+
+.landPagePremiumCard > img {
+	width: 72px;
+	height: 72px;
+	
+	margin-right: 1em;
+}
+
+
+.landPagePremiumCardRight > h5 {
+	color: #ffffff;
+	
+	font-size: 24px;
+	
+	margin-bottom: 0.25em;
+}
+
+
+.landPagePremiumCardRight > p {
+	color: #ffffff;
+	
+	font-size: 15px;
+	
+	line-height: 22px;
 }

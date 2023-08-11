@@ -2,7 +2,7 @@ function LandPageLeftTopSide() {
 	return (
 		<div className="landPageLeftTopSide">
 			<img src="./icon/resume.svg" />
-			<p>Resumizeme</p>
+			<img className="landPageLeftTopSideTitle" src="./icon/resumeTitle.svg" />
 		</div>
 	)
 };
